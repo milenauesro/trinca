@@ -1,6 +1,8 @@
 const form = document.getElementById("form");
 
+
 window.addEventListener("submit", (e) => {
+    let nome = document.getElementById("nome");
     e.preventDefault;
-    alert("Obrigado por entrar em contato conosco!");
+    alert("Salve"+ nome + "Obrigado por entrar em contato conosco!");
 })
